@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+    font-weight: small;
+    font-style: light;
+}
+.header{
+   display: flex;
+   transform: rotate(-5deg) translateX(0%);
+    
+
+}
+img{
+    transform: translateY(10%);
+    object-fit: cover;
+    width: 100%;
+   
+}
+.header2{
+    transform: translateY(15%);
+   
+    transform: rotate(5deg);
+    display: flex;
+    margin: 35px 120px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+}
+#bg{
+    transform: rotate(-5deg) translate(-3%) scale(1.2);
+    width: 100%;
+    margin-top: -80%;
+    position: absolute;
+    z-index: -1;
+    
+}
+.about{
+    transform: translateY(12%);
+    object-fit: cover;
+    background-color: white;
+    box-shadow: 10px 10px 30px 1px grey;
+    height: fit-content;
+
+    width: 100%;
+}
+p{
+    font-size: larger;
+    margin: 10%;
+    margin-top: 5%;
+}
+#h2{
+    margin-top: -2%;
+   margin-left: 5%;
+}
+h1{
+    margin: 3% 10%;
+}
+.icons{
+    transform: translateX(80%);
+    display: flex;
+    gap: 10px;
+    font-size: x-large;
+    padding-bottom: 35px;
+}
+.page{
+    margin-top: 8%;
+    position: absolute;
+    margin: 8% 120px;
+   
+} 
+.card{
+    box-shadow: 3px 6px 15px 1px rgba(128, 128, 128, 0.36);
+    margin-bottom: 30px;
+    min-height: 400px;
+    width: 30%;
+}
+#cardArea{
+    transform: translateX(0%);
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.cardName{
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.projName{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.iconn{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{ 
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Roboto", sans-serif;
+    font-weight: small;
+    font-style: light;
+}
+
+#bg2{
+    position: absolute;
+    z-index: -1;
+    height: 45%;
+    width: 130%;
+    transform: translateX(-10%);
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.icons2{
+    display: flex;
+    font-size: 25px;
+    gap: 20px;
+}
+.fRight, .fLeft{
+    transform: translateY(15%);
+}
+
+@media (max-width: 768px){
+    body{
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-style: light;
+    }
+    #william{
+        position: absolute;
+        width: 40%;
+    }
+    .about{
+        transform: translateX(15%) translateY(35%);
+        position: relative;
+        z-index: -1;
+        width: 85%;
+       
+        font-size: 1.4vmin;
+    }
+    .header2{
+        display: flex;
+        gap: 50px;
+        margin: 35px 70px;
+    }
+    h1{
+        transform: translateX(30%);
+        font-weight: 300;
+    }
+    .icons{
+        display: none;
+    }
+    #h2{
+        margin-top: 5%;
+    margin-left: -40%;
+    }
+    .page{
+        margin-top: 8%;
+        position: absolute;
+        margin: 8% 70px;  
+    } 
+    .card{
+        font-size: 80%;
+        margin-bottom: 30px;
+        min-height: 300px;
+        width: 45%;
+
+    }
+    .card h2{
+        font-weight: 300;
+       
+    }
+    #cardArea{       
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+    }
+    .cardName h1{
+        font-size: 150%;
+        margin-left: -30%;
+    }
+    .cardName{
+        height: 170px;
+    }
+    .iconn{
+        font-size: 20px;
+    }
+    #img2{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .fLeft{
+        font-size: 80%;
+        font-weight: 300%;
+        transform: translateY(22.5%);
+    }
+    #con{
+        margin-left: -40%;
+    }
+    #bg2{
+        height: 36%;
+    }    
+    
+}
+@media (max-width: 431px){
+    body, html{
+        overflow-x: hidden;
+        position: relative;
+        height: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #bg{
+        transform: translateY(-10%) rotate(-20deg) scale(2.2);
+    }
+    .header2{
+        display: block;
+        transform: translatex(4%) rotate(5deg);
+    }
+    #william{
+        position: absolute;
+        width: 100%;
+        height: 600px;
+       
+    }
+    .about{
+        transform: translateX(0%) translateY(400%);
+        position: relative;
+        z-index: 0;
+        width: 100%;
+       
+        font-size: 1.4vmin;
+    }
+    .page{
+        transform: translateY(13%);
+        margin: 5%;
+    }
+    .header{
+        margin: -10% -5%;
+        margin-left: -11.5%;
+    }
+    .about{
+        box-shadow: none;
+        font-size: 100%;
+        transform: translateY(90%);
+       
+    }
+    .about p{
+        margin: 0%;
+    }
+    #bg2{
+        width: 120%;
+        height: 22%;
+    }
+    #cardArea{
+        display: block;
+    }
+    .card{
+        width: 100%;
+        min-height: 500px;
+        font-size: 100%;
+    }
+    .cardName{
+        height: 250px;
+    }
+    footer{
+        display: block;
+        margin-left: 0%;
+    }
+    .fLeft{
+        transform: translateY(5%);
+        font-size: 100%;
+        text-align: center;
+    }
+    #con{
+        transform: translateX(20%);
+    }
+    footer h3{
+        font-weight: 300;
+    }
+    #img2{
+        transform: translateY(30%) scale(2.0);
+        width: 100%;
+        
+    }
+    .icons2{
+        transform: translateX(35%);
+        font-size: xx-large;
+        font-weight: 500;
+    }
+
+} 
